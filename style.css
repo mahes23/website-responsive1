@@ -1,0 +1,809 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   background-image: url('images/post.png');
+   background-size:100%;
+   background-position: fixed;
+   background-repeat: no-repeat;
+   
+}
+html{
+    scroll-padding:5rem;
+}
+header{
+    position: sticky;
+    top: 0;
+
+}
+nav{
+background: rgb(0,0,0);
+background: rgba(0,0,0,0.5);
+height: 60px;
+width: 100%;
+z-index: 5;
+}
+.nav-links{
+    display: flex;
+   
+}
+.nav-links h1{
+
+     margin-top: 1%;
+     margin-left: 5%;
+     width: 600px;
+     text-transform:uppercase;
+     color: white;
+}
+.nav-links a{
+    margin-top: 1%;
+    margin-left: 3%;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: white;
+    font-size: 20px;
+   
+   
+}
+.search{
+    width: 100px;
+    color: white;
+    border-bottom: 3px white;
+    border-bottom: 3px solid white;
+}
+.search:hover{
+     background-color:rgb(90, 87, 87);
+}
+.posttext{
+    position: absolute;
+    color: white;
+    top: 50%;
+    left: 28%;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.posttext h3{
+    margin-left: 25%;
+    margin-top: 5%;
+}
+.posttext h3:hover{
+    color: gray;
+}
+.part1{
+   padding-top: 50%; 
+   display: flex;
+   width: 100%;
+}
+.part{
+    margin-top:0;
+}
+.left1{
+    width: 50%;
+    background-color: black;
+    color: white;
+}
+.left1 h1{
+ margin-top: 50%;
+ margin-left: 30%;
+ font-size: 40px;
+}
+.left1 p{
+    margin-left: 40%;
+    margin-top: 5%;
+    text-transform: capitalize;
+    font-size: 30px;
+}
+.left1 p:hover{
+    color: gray;
+}
+.right1{
+    width: 50%;
+    /*background-color: aqua;*/
+}
+.right1 img{
+    width: 100%;
+    height: 100%;
+}
+.part3{
+   display: flex;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    
+}
+.first{
+    width:50%;
+    height: 30%;
+    overflow: hidden;
+    border: none;
+    position: relative;
+}
+.first img{
+    width: 100%;
+    height:30%;
+    transition: all 1s;
+    border: 2px solid black;
+    transform-origin:0,1%;
+
+   
+   
+}
+.first:hover img{
+    transform: scale(1.2);
+    color: rgb(0,0,0);
+    color: rgba(0,0,0,0.5);
+    
+   
+}
+.first h1{
+    position: absolute;
+    font-size: 30px;
+    top: 50%;
+    left: 25%;
+    text-transform: capitalize;
+    overflow: hidden;
+    transition: all 1s ease;
+    color: transparent;
+        
+}
+.first h1:hover {
+    transform: scale(1.1);
+    color: white;
+}
+.saleon{
+    background-color: black;
+    width: 100%;
+    height: 700px;
+    color: white;
+    z-index:-2;
+    top:0
+    
+}
+.sale{
+    padding-top: 5%;
+    padding-left: 35%;
+   
+}
+.sale h1{
+    text-transform: uppercase;
+    font-size: 60px;
+}
+.sale h2{
+    text-transform:capitalize;
+    font-size: 30px;
+    margin-left: 13%;
+}
+.images{
+    display: flex;
+    margin-left: 20%;
+    margin-top: 2%;
+}
+
+.three h1{
+    margin-left: 19%;
+    text-transform: capitalize;
+    
+}
+.three p{
+    margin-left: 39%;
+    margin-top: 1%;
+    font-size:25px;
+    
+}
+.three h5{
+    margin-left: 28%;
+    text-transform: capitalize;
+    font-size: 20px;
+    transition: all 1s ease;
+    cursor: pointer;
+}
+.part5{
+    background-image: url('images/part15.png');
+    background-size:cover;
+   background-repeat: no-repeat;
+   height: 700px;
+}
+.both{
+    display: flex;
+    width: 100%;
+}
+.right2{
+    width: 50%;
+    background-color: rgb(0,0,0);
+    background-color:rgba(0,0,0,0.5);
+    height: 700px;
+    color: white;
+
+}
+.right2 h1{
+    margin-top: 20%;
+    margin-left: 35%;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.right2 p{
+    width: 300px;
+    text-align: start;
+    margin-left: 35%;
+    text-transform: capitalize;
+    font-size: 25px;
+    margin-top: 4%;
+   
+}
+
+.left2{
+    width: 50%;
+}
+.contact{
+    background-color: black;
+    width: 100%;
+    height: 700px;
+}
+.both1{
+    display: flex;
+   
+}
+.coninfo{
+    width: 50%;
+    /*background-color: aliceblue;*/
+    margin-top: 10%;
+    height:500px;
+    margin-left:10%;
+    text-transform: capitalize;
+}
+.coninfo{
+    padding-left: 10%;
+    width: 50%;
+    font-size: 30px;
+    text-transform: capitalize;
+    color: white;
+}
+input{
+    width: 290px;
+    height: 35px;
+    background-color: black;
+    margin-top: 2%;
+  
+}
+.coninfo button{
+    margin-left: 30%;
+    margin-top: 2%;
+    width: 150px;
+    height: 50px;
+   text-transform: capitalize;
+}
+.contactp{
+    color: white;
+    margin-top: 10%;
+    width:50%
+}
+.contactp p{
+    width: 400px;
+    text-transform: capitalize;
+    font-size: 20px;
+    margin-left: 10%;
+    word-spacing: 2px;
+    letter-spacing: 3px;
+    font-family: cursive;
+    margin-top: 5%;
+    
+}
+.contactp h1{
+    margin-left: 10%;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+.contactp li{
+    list-style: none;
+    padding-left: 10%;
+    padding-top: 5%;
+    text-transform: capitalize;
+    font-size: 30px;
+}
+.last{
+    background-color: black;
+    width: 100%;
+    height: 700px;
+    color: white;
+}
+.final{
+    padding-top: 10%;
+    padding-left: 30%;
+}
+.final h1{
+    font-size: 60px;
+}
+.final p{
+    margin-top: 5%;
+     margin-left: 20%;
+     font-size: 20px;
+}
+.final label{
+    margin-left: 23%;
+    padding-top: 10%;
+    text-transform: capitalize;
+    font-size: 30px;
+}
+.final input{
+    margin-left:2%;
+    width: 600px;
+    text-align: center;
+     color: white;
+}
+.final button{
+    margin-left:2%;
+    margin-top: 5%;
+    width: 600px;
+    height: 30px;
+    text-align: center;
+}
+.footarea{
+    background-color:rgb(0,0,0);
+    width: 100%;
+    height: 100px;
+}
+.footin{
+    color: white;
+    display: flex;
+    padding-top: 3%;
+}
+.footin h1{
+    width: 700px;
+    margin-left: 4%;
+    font-size: 20px;
+}
+.footin a{
+    margin-left:2%;
+    color: white;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+@media only screen and (max-width:600px){
+    .nav-links h1{
+
+        margin-top: 1%;
+        margin-left:2%;
+        width: 180px;
+        text-transform:uppercase;
+        color: white;
+        font-size: 20px;
+   }
+   .nav-links a{
+       margin-top: 1%;
+       margin-left: 1%;
+       text-decoration: none;
+       text-transform: capitalize;
+       color: white;
+       font-size: 20px;
+   }
+   .nav-links a:hover{
+    color:pink;
+   }
+   .posttext{
+    position: absolute;
+    color: white;
+    top: 17%;
+    left: 15%;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.part1{
+    display: block;
+    width: 100%;
+   padding-top: 0;
+ }
+ .part{
+     margin:0;
+     
+ }
+ .left1{
+     width: 100%;
+     background-color: black;
+     color: white;
+     height: 400px;
+}
+ .left1 h1{
+ padding-top:30%;
+  }
+ 
+  .right1{
+    width: 100%;
+    /*background-color: aqua;*/
+}
+.right1 img{
+    width: 100%;
+    height: 540px;
+}
+.part3{
+    display:block;
+     background-color: black;
+     width: 100%;
+     height: 100%;
+     
+ }
+ .first{
+    width:100%;
+    height: 30%;
+    overflow: hidden;
+    border: none;
+    position: relative;
+}
+.first h1{
+    position: absolute;
+    font-size: 30px;
+    top: 40%;
+    left: 40%;
+    text-transform: capitalize;
+    overflow: hidden;
+    transition: all 0.1s ease;
+    color: transparent;
+        
+}
+.images{
+    display: block;
+    margin-left: 20%;
+    margin-top: 2%;
+}
+.saleon{
+    background-color: black;
+    width: 100%;
+    height: 1500px;
+    color: white;
+}
+.sale{
+    padding-left:30%;
+}
+.sale h1{
+    font-size: 30px;
+}
+.images{
+    width: 100%;
+    height: 200px;
+}
+.three h1{
+    margin-left: 14%;
+    text-transform: capitalize;
+    
+}
+.three p{
+    margin-left:23%;
+    margin-top: 1%;
+    font-size:25px;
+    
+}
+.three h5{
+    margin-left: 18%;
+    text-transform: capitalize;
+    font-size: 20px;
+    transition: all 1s ease;
+    cursor: pointer;
+    color: transparent;
+}
+.three:hover h5{
+    transform: scale(1);
+    color: azure;
+}
+.both{
+    width: 100%;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.5);
+}
+.contact{
+    width: 100%;
+    height: 1200px;
+    background-color:black;
+}
+.both1{
+    padding-top: 5%;
+    width: 100%;
+    display: block;
+}
+
+.coninfo{
+    width: 100%;
+   padding-top: 10%;
+   height: 500px;
+}
+.contactp{
+    margin-left: 13%;
+    width: 100%;
+    height: 500px;
+}
+.last{
+    width: 100%;
+    height: 600px;
+}
+.final{
+    width: 100%;
+    padding-top: 10%;
+    padding-left:1%;
+   
+}
+.final h1{
+font-size: 30px;
+margin-left: 15%;
+}
+.final p{
+    margin-left:24%;
+}
+.final label{
+    margin-left: 30%;
+}
+.final input{
+    width: 400px;
+    margin-left: 15%;
+}
+.final button{
+    width: 400px;
+    margin-left: 15%;
+}
+.footarea{
+    width: 100%;
+    height: 200px;
+}
+.footin{
+    width: 100%;
+    display: block;
+}
+.footin h1{
+    width: 500px;
+    font-size: 20px;
+}
+.footin a{
+    display: block;
+    margin-left: 40%;
+    margin-top: 2%;
+}
+html{
+    scroll-padding: 1rem;
+}
+body{
+    overflow-x: hidden;
+}
+}
+@media only screen and (max-width:480px){
+    nav{
+        background: rgb(0,0,0);
+        background: rgba(0,0,0,0.5);
+        height: 40px;
+        width: 100%;
+        
+        }
+        
+    
+    
+    .nav-links h1{
+
+        margin-top: 1%;
+        margin-left:2%;
+        width: 130px;
+        text-transform:uppercase;
+        color: white;
+        font-size:15px;
+   }
+   .nav-links a{
+       margin-top: 1%;
+       margin-left: 1%;
+       text-decoration: none;
+       text-transform: capitalize;
+       color: white;
+       font-size:10px;
+   }
+   .nav-links a:hover{
+    color:pink;
+   }
+   .search{
+    width:80px;
+    color: white;
+    border-bottom: 3px white;
+    border-bottom: 3px solid white;
+
+}
+.posttext{
+    position: absolute;
+    color: white;
+    top: 10%;
+    left: 5%;
+    font-size: 18px;
+    text-transform: uppercase;
+    width: 500px;
+}
+.part1{
+    top: 0;
+    display:block;
+    width: 100%;
+    
+ }
+ .part{
+    margin-top: 1;
+ }
+ .left1{
+     width: 100%;
+     background-color: black;
+     color: white;
+ }
+ .left1 h1{
+  margin-top: 50%;
+  margin-left: 30%;
+  font-size: 40px;
+ }
+ .left1 p{
+     margin-left: 40%;
+     margin-top: 5%;
+     text-transform: capitalize;
+     font-size: 30px;
+ }
+ .left1 p:hover{
+     color: gray;
+ }
+ .right1{
+     width: 100%;
+     /*background-color: aqua;*/
+ }
+ .right1 img{
+     width: 100%;
+     height: 100%;
+ }
+ 
+.part3{
+   display:block;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    
+}
+.first{
+    margin-top: 1%;
+   width:100%;
+   height: 30%;
+   overflow: hidden;
+   border: none;
+   position: relative;
+}
+.first h1{
+   position: absolute;
+   font-size: 30px;
+   top: 50%;
+   left: 15%;
+   text-transform: capitalize;
+   overflow: hidden;
+   transition: all 0.1s ease;
+   color: transparent;
+       
+}
+.images{
+   display: block;
+   margin-left:5%;
+   margin-top: 2%;
+}
+.saleon{
+   background-color: black;
+   width: 100%;
+   height: 1500px;
+   color: white;
+}
+.sale{
+   padding-left:15%;
+}
+.sale h1{
+   font-size: 30px;
+}
+.images{
+   width: 100%;
+   height: 200px;
+}
+.three{
+    margin-left:5%;
+}
+.three h1{
+   margin-left: 14%;
+   text-transform: capitalize;
+   
+}
+.three p{
+   margin-left:28%;
+   margin-top: 1%;
+   font-size:25px;
+   
+}
+.three h5{
+   margin-left: 19%;
+   text-transform: capitalize;
+   font-size: 20px;
+   transition: all 1s ease;
+   cursor: pointer;
+   color: transparent;
+}
+.three:hover h5{
+   transform: scale(1);
+   color: azure;
+}
+.both{
+   width: 100%;
+   background-color: rgb(0,0,0);
+   background-color: rgba(0,0,0,0.5);
+}
+.right2  h1{
+    font-size: 30px;
+    width: 300px;
+}
+.contact{
+   width: 100%;
+   height: 1200px;
+   background-color:black;
+}
+.both1{
+   padding-top: 5%;
+   width: 100%;
+   display: block;
+}
+
+.coninfo{
+   width: 100%;
+  padding-top: 10%;
+  height: 500px;
+  margin-left: 5%;
+}
+.contactp{
+   margin-left:5%;
+   width: 100%;
+   height: 500px;
+}
+.contactp p{
+    width: 300px;
+}
+.last{
+   width: 100%;
+   height: 600px;
+}
+.final{
+   width: 100%;
+   padding-top: 10%;
+   padding-left:1%;
+  
+}
+.final h1{
+font-size: 20px;
+margin-left: 10%;
+}
+.final p{
+   margin-left:14%;
+}
+.final label{
+   margin-left: 10%;
+}
+.final input{
+   width: 300px;
+   margin-left: 5%;
+}
+.final button{
+   width: 300px;
+   margin-left: 5%;
+}
+.footarea{
+   width: 100%;
+   height: 200px;
+}
+.footin{
+   width: 100%;
+   display: block;
+}
+.footin h1{
+   width: 400px;
+   font-size:15px;
+}
+.footin a{
+   display: block;
+   margin-left: 20%;
+   margin-top: 2%;
+}
+html{
+   scroll-padding: 1rem;
+}
+body{
+    overflow-x: hidden;
+}
+}
